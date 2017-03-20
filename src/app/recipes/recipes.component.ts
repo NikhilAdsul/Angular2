@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
+=======
+import {Recipe} from "./recipe";
+>>>>>>> current_status
 
 @Component({
   selector: 'rb-recipes',
@@ -7,6 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipesComponent implements OnInit {
 
+<<<<<<< HEAD
+=======
+  selectedRecipe=Recipe;
+
+>>>>>>> current_status
   constructor() { }
 
   ngOnInit() {
